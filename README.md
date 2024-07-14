@@ -7,3 +7,4 @@ fast-react-pizza
 006 Building the App Layout
 007 Fetching Data With React Router Loaders Pizza Menu
 008 Displaying a Loading Indicator
+009 Handling Errors With Error Elements
