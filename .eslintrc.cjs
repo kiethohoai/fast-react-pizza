@@ -1,18 +1,38 @@
 module.exports = {
-  root: true,
-  env: { browser: true, es2020: true },
-  extends: [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:react/jsx-runtime",
-    "plugin:react-hooks/recommended",
-  ],
-  ignorePatterns: ["dist", ".eslintrc.cjs"],
-  parserOptions: { ecmaVersion: "latest", sourceType: "module" },
-  settings: { react: { version: "18.2" } },
-  plugins: ["react-refresh", "react"],
+  env: {
+    browser: true,
+    es2021: true,
+    node: true,
+  },
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint", "react"],
+  extends: ["eslint:recommended", "plugin:react/recommended", "plugin:@typescript-eslint/recommended", "prettier"],
   rules: {
-    "react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
-    "react/prop-types": 0,
+    "no-console": "warn",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "react/no-unescaped-entities": "off",
+    "react/prop-types": "off",
+    "react/display-name": "off",
+    "react/jsx-curly-brace-presence": ["warn", { props: "never", children: "never" }],
+    "react-hooks/exhaustive-deps": "off",
+    //#region  //*=========== Unused Import ===========
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      {
+        varsIgnorePattern: "^_",
+        ignoreRestSiblings: true,
+        // (unusedArg1, unusedArg2, arg3) while arg3 is only used is allowed
+        args: "after-used",
+        // (arg1, arg2, _arg3) while _arg3 is unused is allowed
+        argsIgnorePattern: "^_",
+        // ({..._props}) while _props is unused is allowed
+        destructuredArrayIgnorePattern: "^_",
+      },
+    ],
+    //#endregion  //*======== Unused Import ===========
+  },
+  globals: {
+    React: true,
+    JSX: true,
   },
 };
