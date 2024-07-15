@@ -17,3 +17,4 @@ Tailwind CSS Crash Course Styling the App
 001 Section Overview
 002 What is Tailwind CSS
 003 Setting Up Tailwind CSS
+004 Working With Color
