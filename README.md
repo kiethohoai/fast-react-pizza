@@ -18,3 +18,4 @@ Tailwind CSS Crash Course Styling the App
 002 What is Tailwind CSS
 003 Setting Up Tailwind CSS
 004 Working With Color
+005 Styling Text
