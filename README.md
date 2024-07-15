@@ -11,3 +11,9 @@ fast-react-pizza
 010 Fetching Orders
 011 Fetching Orders (Fix My Error)
 011 Writing Data With React Router Actions
+012 Error Handling in Form Actions
+
+Tailwind CSS Crash Course Styling the App
+001 Section Overview
+002 What is Tailwind CSS
+003 Setting Up Tailwind CSS
