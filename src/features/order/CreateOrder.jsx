@@ -1,7 +1,4 @@
 // import { useState } from "react";
-// import { useActionData, useNavigation } from "react-router-dom";
-
-import { fetchAddress } from "../user/userSlice";
 
 // https://uibakery.io/regex-library/phone-number
 const isValidPhone = (str) =>
@@ -34,17 +31,11 @@ const fakeCart = [
 
 function CreateOrder() {
   // const [withPriority, setWithPriority] = useState(false);
-  // const username = useSelector((state) => state.user.username);
-  // const navigation = useNavigation();
-  // const isSubmitting = navigation.state === "submitting";
-  // const formErrors = useActionData();
-  const dispatch = useDispatch();
 
   const cart = fakeCart;
   return (
     <div>
       <h2>Ready to order? Let is go!</h2>
-      <button onClick={() => dispatch(fetchAddress())}>Get position</button>
 
       <form>
         <div>
