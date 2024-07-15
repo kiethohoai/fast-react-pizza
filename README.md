@@ -9,3 +9,4 @@ fast-react-pizza
 008 Displaying a Loading Indicator
 009 Handling Errors With Error Elements
 010 Fetching Orders
+011 Redux Thunks With createAsyncThunk
