@@ -20,3 +20,4 @@ Tailwind CSS Crash Course Styling the App
 004 Working With Color
 005 Styling Text
 006 The Box Model Spacing, Borders, and Display
+007 Responsive Design
