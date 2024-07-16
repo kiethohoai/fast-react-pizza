@@ -29,3 +29,4 @@ Tailwind CSS Crash Course Styling the App
 013 Reusing Styles With React Components
 014 Absolute Positioning, z-index, and More
 015 Configuring Tailwind Custom Font Family
+016 Styling the Menu
