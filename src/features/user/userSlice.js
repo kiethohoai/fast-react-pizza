@@ -27,7 +27,6 @@ export async function fetchAddress() {
  */
 
 import { createSlice } from "@reduxjs/toolkit";
-import { action } from "../order/CreateOrder";
 
 const initialState = {
   username: "",
@@ -37,8 +36,8 @@ export const userSlice = createSlice({
   name: "user",
   initialState,
   reducers: {
-    updateName(state) {
-      state.usename = action.payload;
+    updateName(state, action) {
+      state.username = action.payload;
     },
   },
 });

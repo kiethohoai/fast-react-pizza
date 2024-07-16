@@ -37,3 +37,4 @@ Tailwind CSS Crash Course Styling the App
 24 - Adding Redux and Advanced React Router
 001 Section Overview
 002 Modeling the User State With Redux Toolkit
+003 Reading and Updating the User State
