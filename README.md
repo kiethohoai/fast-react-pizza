@@ -33,3 +33,7 @@ Tailwind CSS Crash Course Styling the App
 017 Styling the Cart
 018 Styling the Order Form
 019 Styling the Order Overview
+
+24 - Adding Redux and Advanced React Router
+001 Section Overview
+002 Modeling the User State With Redux Toolkit

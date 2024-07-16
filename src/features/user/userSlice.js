@@ -1,4 +1,4 @@
-import { getAddress } from "../../services/apiGeocoding";
+/* import { getAddress } from "../../services/apiGeocoding";
 
 function getPosition() {
   return new Promise(function (resolve, reject) {
@@ -24,3 +24,24 @@ export async function fetchAddress() {
   // Payload of the FULFILLED STATE
   return { position, address };
 }
+ */
+
+import { createSlice } from "@reduxjs/toolkit";
+import { action } from "../order/CreateOrder";
+
+const initialState = {
+  username: "",
+};
+
+export const userSlice = createSlice({
+  name: "user",
+  initialState,
+  reducers: {
+    updateName(state) {
+      state.usename = action.payload;
+    },
+  },
+});
+
+export const { updateName } = userSlice.actions;
+export default userSlice.reducer;

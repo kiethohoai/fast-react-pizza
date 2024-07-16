@@ -1,4 +1,5 @@
 import { formatCurrency } from "../../utils/helpers";
+import React from "react";
 
 function OrderItem({ item }) {
   const { quantity, name, totalPrice } = item;
