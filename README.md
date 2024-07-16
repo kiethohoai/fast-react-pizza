@@ -38,3 +38,4 @@ Tailwind CSS Crash Course Styling the App
 001 Section Overview
 002 Modeling the User State With Redux Toolkit
 003 Reading and Updating the User State
+004 Modeling the Cart State
