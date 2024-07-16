@@ -24,3 +24,8 @@ Tailwind CSS Crash Course Styling the App
 008 Using Flexbox
 009 Using CSS Grid
 010 Styling Buttons Element States and Transitions
+011 Styling Form Elements
+012 Reusing Styles With @apply
+013 Reusing Styles With React Components
+014 Absolute Positioning, z-index, and More
+015 Configuring Tailwind Custom Font Family
