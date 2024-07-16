@@ -30,3 +30,5 @@ Tailwind CSS Crash Course Styling the App
 014 Absolute Positioning, z-index, and More
 015 Configuring Tailwind Custom Font Family
 016 Styling the Menu
+017 Styling the Cart
+018 Styling the Order Form
