@@ -32,3 +32,4 @@ Tailwind CSS Crash Course Styling the App
 016 Styling the Menu
 017 Styling the Cart
 018 Styling the Order Form
+019 Styling the Order Overview
