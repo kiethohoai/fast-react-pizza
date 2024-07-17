@@ -6,14 +6,22 @@ module.exports = {
   },
   parser: "@typescript-eslint/parser",
   plugins: ["@typescript-eslint", "react"],
-  extends: ["eslint:recommended", "plugin:react/recommended", "plugin:@typescript-eslint/recommended", "prettier"],
+  extends: [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+  ],
   rules: {
     "no-console": "warn",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "react/no-unescaped-entities": "off",
     "react/prop-types": "off",
     "react/display-name": "off",
-    "react/jsx-curly-brace-presence": ["warn", { props: "never", children: "never" }],
+    "react/jsx-curly-brace-presence": [
+      "warn",
+      { props: "never", children: "never" },
+    ],
     "react-hooks/exhaustive-deps": "off",
     //#region  //*=========== Unused Import ===========
     "@typescript-eslint/no-unused-vars": [
