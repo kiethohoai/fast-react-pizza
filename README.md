@@ -46,3 +46,4 @@ Tailwind CSS Crash Course Styling the App
 009 Updating Cart Quantities
 010 Using the Cart for New Orders
 011 Redux Thunks With createAsyncThunk
+012 Integrating Geolocation
