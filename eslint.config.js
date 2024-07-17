@@ -8,4 +8,10 @@ export default [
   { languageOptions: { globals: { ...globals.browser, ...globals.node } } },
   pluginJs.configs.recommended,
   pluginReactConfig,
+  {
+    plugins: ["react"],
+    rules: {
+      "react/prop-types": 0,
+    },
+  },
 ];

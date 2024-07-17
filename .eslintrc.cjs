@@ -5,7 +5,7 @@ module.exports = {
     node: true,
   },
   parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint", "react"],
+  plugins: ["react", "@typescript-eslint"],
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",
@@ -16,7 +16,7 @@ module.exports = {
     "no-console": "warn",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "react/no-unescaped-entities": "off",
-    "react/prop-types": "off",
+    "react/prop-types": 0,
     "react/display-name": "off",
     "react/jsx-curly-brace-presence": [
       "warn",

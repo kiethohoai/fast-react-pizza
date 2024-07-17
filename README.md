@@ -42,3 +42,4 @@ Tailwind CSS Crash Course Styling the App
 005 Adding Menu Items to the Cart
 006 Building the Cart Overview With Redux Selectors
 007 Building the Cart Page
+008 Deleting Cart Items
