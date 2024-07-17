@@ -41,3 +41,4 @@ Tailwind CSS Crash Course Styling the App
 004 Modeling the Cart State
 005 Adding Menu Items to the Cart
 006 Building the Cart Overview With Redux Selectors
+007 Building the Cart Page
