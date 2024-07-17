@@ -34,6 +34,7 @@ Tailwind CSS Crash Course Styling the App
 018 Styling the Order Form
 019 Styling the Order Overview
 
+/* eslint-disable react/prop-types */
 24 - Adding Redux and Advanced React Router
 001 Section Overview
 002 Modeling the User State With Redux Toolkit
@@ -47,3 +48,4 @@ Tailwind CSS Crash Course Styling the App
 010 Using the Cart for New Orders
 011 Redux Thunks With createAsyncThunk
 012 Integrating Geolocation
+013 Fetching Data Without Navigation useFetcher
