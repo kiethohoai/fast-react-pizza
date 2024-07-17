@@ -49,3 +49,4 @@ Tailwind CSS Crash Course Styling the App
 011 Redux Thunks With createAsyncThunk
 012 Integrating Geolocation
 013 Fetching Data Without Navigation useFetcher
+014 Updating Data Without Navigation
